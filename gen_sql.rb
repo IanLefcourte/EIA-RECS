@@ -23,7 +23,7 @@ end
 def get_type(value)
   value = value.gsub('"', '')
   return "integer" if value.to_i.to_s == value
-  return "double" if value.to_i.to_s != value && value.to_f.to_s == value
+  return "double precision" if value.to_i.to_s != value && value.to_f.to_s == value
   return "text"
 end
 
