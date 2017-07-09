@@ -1,1 +1,2 @@
-insert the dog 
+select all incomeff = "40000"
+select all regionc = 'humid'
