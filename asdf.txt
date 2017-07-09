@@ -1,1 +1,2 @@
-insert the dog 
+insert the dog
+add all household where climate ='humid'
