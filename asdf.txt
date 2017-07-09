@@ -1,2 +1,3 @@
-insert the dog
 add all household where climate ='humid'
+select all incomeff = "40000"
+select all regionc = 'humid'
