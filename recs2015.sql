@@ -532,7 +532,7 @@ FROM 'D:/Programming/Projects/2015 EIA RECS/RECS2015.csv' DELIMITER ',' CSV HEAD
 
 /* Q1 Find the percent of households from the Pacific division (division = 10) that made changes as a result of a free home energy audit
  among all Pacific division households that made changes as a result of any home energy audit. */
-SELECT (COUNT (freeaudit)::decimal / COUNT (allaudit))*100 as PercentFreeChange
+SELECT (COUNT (freeaudit):decimal / COUNT (allaudit))*100 as PercentFreeChange
 FROM
       (SELECT COUNT (auditchg)
        FROM RECS_2015
